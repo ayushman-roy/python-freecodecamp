@@ -1,0 +1,44 @@
+Module - Any External file Imported to the current .py file, to use in the program, which contains pre-written code.
+Modules can be download from the internet as well as be written ourselves.
+Go to python docs to find useful modules.
+You can also use 3rd party Modules.
+
+EXAMPLE -
+let usefulTools.py be a python file which has code and functions in it.
+In order to access the code and functions from it simply, type :
+        import usefulTools
+In your current .py project at the very start.
+Access the functions and code by:
+        print(usefulTools.xyz())
+
+Pre-Installed External Modules Access -
+usually, to access them -
+External Libraries/ Python 3.8/ Lib/ xmlrpc
+Or just do a quick google search.
+
+
+
+PIP - Installer for Modules.
+Package Manager.
+To install packages, usually -
+Go to Directory where pip is located using CMD
+Type the following in the terminal :
+        pip install {package name}
+To uninstall modules :
+        pip uninstall {package name}
+
+The External file will usually be downloaded in the -
+External Libraries/ Python 3.8/ Lib/ site-packages
+
+
+
+Interpreter - usually, the Terminal or CMD where we can test out python code before using them in our programs.
+A sandbox environment, a quick way to test code.
+To use interpreter -
+Go to CMD and the directory of python app and type:
+            python3
+If an error occurs it is usually because the command is not registered in the path variable.
+Just do a google search on how to add the path variable.
+Similar issues may be faced in case of pip as well.
+
+
